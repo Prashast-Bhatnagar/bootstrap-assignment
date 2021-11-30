@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+       <head>
+              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+              <link rel='stylesheet' href='style.css'>
+			  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       </head>
+       <body>
+
+		<div id = 'header'>
+			<div id= 'navbar'>
+				<h4 class="navbar-brand st-nav">Bootstrap Task</h4>
+				<nav class="navbar navbar-expand-md navbar-light">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item ">
+							<a class="nav-link a-color" href="#get-started">About</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link a-color" href="#services">Services</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link a-color" href="#portfolio">Portfolio</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link a-color" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+		   <div id='intro'>
+			   <h1>Bootstrap is super easy to work with!</h1>
+			   <div class='dash'></div>
+			   <p>The Bootstrap framework makes our websites responsive. Just add the starter template, use the existing classes and you are good to go!</p>
+			   <a href='#services'><button class='btn btn-primary'>FIND OUT MORE!</button></a>
+		   </div>
+	   </div>
+
+            <div id='get-started'>
+				<div id='get-started-content'>
+					<h2>We've got what you need!</h2>
+					<div class='dash' id='white-dash'></div>
+                    <p>Bootstrap has everything you need to get your new website up and running in no time!</p>
+                    <a href='#register'><button class='btn btn-primary' id='btn-get-started' >GET STARTED!</button></a>
+				</div>
+            </div>
+
+            <div id='services' class='d-flex flex-column'>
+                <h2>At Your Service</h2>
+				<div class='dash'></div>
+				<div class='d-flex'>
+					<div>
+						<i class="far fa-gem"></i>
+						<h3>Service Title</h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad aspernatur eligendi dolorum</p>
+					</div>
+
+					<div>
+						<i class="fas fa-laptop"></i>
+							<h3>Service Title</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad aspernatur eligendi dolorum</p>
+					</div>
+
+					<div>
+						<i class="fas fa-globe"></i>
+							<h3>Service Title</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad aspernatur eligendi dolorum</p>
+					</div>
+
+					<div>
+						<i class="far fa-heart"></i>
+							<h3>Service Title</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ad aspernatur eligendi dolorum</p>
+					</div>
+				</div>
+              </div>
+        
+			<div class="container" id='portfolio'>
+				<div class="row gallery-images">
+				  <img class='gallery-image' src="images/toys.jpeg" alt="toys">
+				  <img class='gallery-image' src="images/camera.jpeg" alt="cameras">
+				  <img class='gallery-image' src="images/dontjuststandthere.jpeg" alt="book">
+				</div>
+				<div class="row gallery-images">
+					<img class='gallery-image' src="images/guitar.jpg" alt="guitar">
+					<img class='gallery-image' src="images/tools.jpeg" alt="tools">
+					<img class='gallery-image' src="images/tweezer.jpg" alt="tweezer">
+			  	</div>
+			</div>
+
+            <div class='container'>
+				<div id='register'>
+					<h2>Let's Get In Touch!</h2>
+					<div class='dash'></div>
+					<p>Ready to start your next project with us? Send us a messages and we will get back to you as soon as possible!</p>
+					<form>
+						<input class='form-control' type="text" placeholder='Full name'/><br>
+						<input class='form-control' type="email" placeholder='Email address'/><br>
+						<input class='form-control' type="tel" placeholder='Phone number'/><br>
+						<textarea class='form-control' placeholder='Message'></textarea><br>
+						<input class='btn btn-primary' type='submit' value='submit'/>
+					</form>
+					<div id='contact'>
+						<i class="fas fa-mobile-alt"></i>
+						<p>+1(555)123-4567</p>
+					 </div>
+				</div>
+			</div>
+
+              <footer>
+                     <p>Copyright <i class="far fa-copyright"></i> 2021 - Company Name</p>
+              </footer>
+       </body>
+</html>

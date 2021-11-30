@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4{
+    font-weight: 800;
+}
+
+#header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/top-view-arrangement-natural-material-stationery.jpg');
+    background-size: cover;
+    color: white;
+    padding: 3% 0%;
+}
+
+#navbar{
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 2%;
+}
+
+#intro{
+    text-align: center;
+    width: 55%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#intro h1{
+    padding-bottom: 2%;
+}
+
+#intro p{
+    padding: 4% 0% 2% 0%;
+}
+
+.a-color{
+    color: white !important;
+}
+
+.dash{
+    background-color: rgb(233, 170, 89);
+    height: 0.25rem;
+    width: 8rem;
+    margin: auto;
+}
+
+#white-dash{
+    background-color: white;
+    height: 0.25rem !important;
+    width: 8rem !important;
+}
+
+#get-started{
+    text-align: center;
+    background-color: rgb(233, 170, 89);
+    color: white;
+    margin: auto;
+}
+
+#get-started-content{
+    width: 50%;
+    margin: auto;
+    padding: 2% 0%;
+}
+
+#get-started-content h2{
+    padding-bottom: 2%;
+}
+
+#get-started-content p{
+    padding: 4% 0% 2% 0%;
+}
+
+#services{
+    text-align: center;
+    padding: 2% 0%;
+}
+
+#services h2{
+    padding-bottom: 2%;
+}
+
+.d-flex{
+    padding: 4% 0% 2% 0%;
+}
+
+i{
+    color: red;
+}
+
+#portfolio{
+    padding: 4% 0%;
+}
+
+.row{
+    margin: auto;
+}
+
+.gallery-image{
+    width: 33.33%
+}
+
+#register{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    padding: 2% 0%;
+}
+
+#register h2{
+    padding-bottom: 2%; 
+}
+
+#register p{
+    padding: 4% 0% 2% 0%;
+}
+
+#contact{
+    margin-top: 10%;
+    padding: 2% 0%;
+}
+
+footer{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(206, 253, 253);
+    padding: 8% 0%;
+}
